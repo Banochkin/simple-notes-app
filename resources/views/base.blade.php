@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Notes App 🚀</title>
-  <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Notes App 🚀</title>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css" />
 </head>
 <body>
-  <div class="container">
+    <div class="container">
     @yield('main')
-  </div>
-  <script src="{{ asset('js/app.js') }}" type="text/js"></script>
+    </div>
+    <script src="{{ asset('js/app.js') }}" type="text/js"></script>
 </body>
 </html>
